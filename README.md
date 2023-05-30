@@ -1,6 +1,6 @@
-# woflenstein-style-rendering
+# Wolfenstein 3D Style Rendering
 
-This is a small project for me to learn more about how the world was rendered in Wolfenstein 3D.
+This is a small project for me to learn more about how the world was rendered in Wolfenstein 3D and also raycasting.
 
 To cast the rays in this program I check for horizontal and vertical walls individually and then find the shortest distance to a vertical or horizontal wall for a given ray.  
 This ray is then used as the distance for selecting the height of the wall, and is also used to map the texture onto the wall.
